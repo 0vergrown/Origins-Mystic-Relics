@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 33,
+    "supported_formats": {
+      "min_inclusive": 18,
+      "max_inclusive": 33
+    },
+    "description": {
+      "text": "Mystic Relics by Overgrown",
+      "bold": false,
+      "italic": false,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    }
+  }
+}

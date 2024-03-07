@@ -1,0 +1,22 @@
+[
+   {
+      "function":"minecraft:set_lore",
+      "entity":"this",
+      "lore":[
+         {
+            "text":"Kinetic Protection II",
+            "color":"gray",
+            "bold":false,
+            "italic":false,
+            "underlined":false,
+            "strikethrough":false,
+            "obfuscated":false
+         }
+      ],
+      "replace":false
+   },
+   {
+      "function":"minecraft:set_nbt",
+      "tag":"{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
+   }
+]

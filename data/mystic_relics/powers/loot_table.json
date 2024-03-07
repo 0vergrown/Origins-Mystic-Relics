@@ -1,0 +1,13 @@
+{
+
+    "type": "origins:multiple",
+
+    "chest": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:chests/abandoned_mineshaft": "mystic_relics:chests/abandoned_mineshaft"
+		},
+		"priority": 0
+    }
+
+}

@@ -1,0 +1,20 @@
+{
+  "order":100,
+  "origins": [
+    "mystic_relics:mystic_relics"
+  ],
+  "enabled": true,
+  "replace": false,
+  "name": "Mystic Relics Information",
+  "gui_title": {
+    "choose_origin": "Mystic Relics Information",
+    "view_origin": "Mystic Relics Information"
+},
+  "missing_name":"Mystic Relics Error",
+  "missing_description":"An error has probably occured, reinstall the pack or contact me on GitHub or Discord!",
+  "allow_random": false,
+  "allow_random_unchoosable":false,
+  "auto_choose":false,
+  "hidden": false,
+  "loading_priority":100
+}
