@@ -1,0 +1,15 @@
+{
+    "type": "apoli:modify_crafting",
+    "recipe": "mystic_relics:crowbar",
+    "item_action": {
+        "type": "apoli:modify",
+        "modifier": "mystic_relics:tools/crowbar"
+    },
+    "entity_action":{
+        "type":"apoli:play_sound",
+        "sound":"minecraft:block.anvil.use",
+        "volume":1.00,
+        "pitch":0.80
+    }
+
+}

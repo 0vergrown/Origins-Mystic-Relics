@@ -1,0 +1,63 @@
+{
+   "name":{
+      "translate":"power.mystic_relics.ironbreaker_pry.name"
+   },
+   "description":{
+      "translate":"power.mystic_relics.ironbreaker_pry.description"
+   },
+    "type":"apoli:action_on_block_use",
+    "entity_action":{
+       "type":"apoli:play_sound",
+       "sound":"minecraft:block.anvil.land",
+       "volume":1.00,
+       "pitch":0.50
+    },
+    "block_action":{
+      "type":"apoli:and",
+      "actions":[
+         {
+            "type":"apoli:execute_command",
+            "command":"particle minecraft:cloud ~ ~ ~ 0.922 0.314 0.314 0.0 16 force @a"
+         },
+         {
+            "type":"apoli:modify_block_state",
+            "property":"open",
+            "operation":"add",
+            "change":1,
+            "value":true,
+            "cycle":false
+         }
+      ]
+    },
+    "block_condition":{
+      "type": "origins:and",
+      "conditions": [
+          {
+            "type": "apoli:in_tag",
+            "tag": "mystic_relics:crowbar_openable"
+          },
+          {      
+            "type": "origins:block_state",
+            "property":"open",
+            "value":false
+          }
+      ]
+    },
+    "directions":[
+       "north",
+       "east",
+       "south",
+       "west",
+       "up",
+       "down"
+    ],
+    "hands":[
+       "main_hand"
+    ],
+    "held_item_action":{
+       "type":"origins:damage",
+       "amount":1,
+       "ignore_unbreaking":true
+    },
+    "action_result":"success"
+}

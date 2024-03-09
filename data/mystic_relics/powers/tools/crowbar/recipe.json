@@ -1,0 +1,24 @@
+{
+    "type": "apoli:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "id": "mystic_relics:crowbar",
+        "pattern": [
+            " ii",
+            " c ",
+            "ii "
+        ],
+        "key": {
+            "i": {
+                "item": "minecraft:iron_ingot"
+            },
+            "c": {
+                "item": "minecraft:copper_ingot"
+            }
+        },
+        "result":{
+            "item": "minecraft:iron_sword",
+            "amount": 1
+        }
+    }
+}

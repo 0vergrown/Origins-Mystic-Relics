@@ -1,13 +1,13 @@
 {
-	"hidden": true,
-    "type": "origins:multiple",
+	"type": "origins:replace_loot_table",
+	"replace": {
+		"minecraft:chests/abandoned_mineshaft": "mystic_relics:chests/abandoned_mineshaft",
+		"minecraft:chests/desert_pyramid": "mystic_relics:chests/desert_pyramid",
 
-    "chest": {
-		"type": "origins:replace_loot_table",
-		"replace": {
-			"minecraft:chests/abandoned_mineshaft": "mystic_relics:chests/abandoned_mineshaft"
-		},
-		"priority": 0
-    }
-
+		"minecraft:archaeology/desert_pyramid": "mystic_relics:archaeology/desert_pyramid",
+		"minecraft:archaeology/desert_well": "mystic_relics:archaeology/desert_well",
+		"minecraft:archaeology/trail_ruins_common": "mystic_relics:archaeology/trail_ruins_common",
+		"minecraft:archaeology/trail_ruins_rare": "mystic_relics:archaeology/trail_ruins_rare"
+	},
+	"priority": 0
 }

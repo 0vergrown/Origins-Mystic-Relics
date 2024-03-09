@@ -6,9 +6,12 @@
 		"mystic_relics:enchantments/kinetic_protection/level_2",
 		"mystic_relics:enchantments/kinetic_protection/level_3",
 		"mystic_relics:enchantments/kinetic_protection/level_4",
-		"mystic_relics:enchantments/kinetic_protection/level_5"
+		"mystic_relics:enchantments/kinetic_protection/level_5",
+		"mystic_relics:tools/crowbar/recipe",
+		"mystic_relics:tools/crowbar/modify_crafting",
+		"mystic_relics:relics/shard_of_frozen_time/resource"
 	],
-	"icon": "minecraft:air",
+	"icon": "minecraft:soul_torch",
 	"unchoosable": false,
 	"order": 10,
 	"impact": 3,
