@@ -4,6 +4,12 @@
         "type": "origins:and",
         "actions": [
             {
+                "type": "origins:change_resource",
+                "resource": "mystic_relics:relics/shard_of_frozen_time/resource",
+                "change": 1,
+                "operation": "add"
+            },
+            {
                 "type": "origins:equipped_item_action",
                 "equipment_slot": "mainhand",
                 "action": {

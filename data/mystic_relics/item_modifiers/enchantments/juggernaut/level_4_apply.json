@@ -1,0 +1,29 @@
+[
+   {
+      "function":"minecraft:set_lore",
+      "entity":"this",
+      "lore":[
+         {
+            "text":"Juggernaut IV",
+            "color":"gray",
+            "bold":false,
+            "italic":false,
+            "underlined":false,
+            "strikethrough":false,
+            "obfuscated":false
+         }
+      ],
+      "replace":false
+   },
+   {
+      "function":"minecraft:set_nbt",
+      "tag":"{Tags:[\"enchantment\",\"juggernaut\",\"level_4\"]}"
+   },
+   {
+      "function":"apoli:add_power",
+      "power":"mystic_relics:enchantments/juggernaut/level_4",
+      "slot":"chest",
+      "hidden":false,
+      "negative":false
+   }
+]

@@ -1,10 +1,4 @@
 {
-   "name":{
-      "translate":"power.mystic_relics.ironbreaker_pry.name"
-   },
-   "description":{
-      "translate":"power.mystic_relics.ironbreaker_pry.description"
-   },
     "type":"apoli:action_on_block_use",
     "entity_action":{
        "type":"apoli:play_sound",
