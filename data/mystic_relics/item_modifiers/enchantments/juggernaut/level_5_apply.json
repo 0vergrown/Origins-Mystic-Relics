@@ -23,7 +23,7 @@
       "function":"apoli:add_power",
       "power":"mystic_relics:enchantments/juggernaut/level_5",
       "slot":"chest",
-      "hidden":false,
+      "hidden":true,
       "negative":false
    }
 ]
