@@ -17,7 +17,7 @@
       "entity":"this",
       "lore":[
          {
-            "translate":"item_modifier.mystic_relics.crowbar.description",
+            "translate":"item_modifier.mystic_relics.crowbar.lore",
             "color":"gray",
             "bold":false,
             "italic":false,

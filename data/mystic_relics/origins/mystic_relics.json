@@ -7,6 +7,8 @@
 		"mystic_relics:enchantments/kinetic_protection/level_3",
 		"mystic_relics:enchantments/kinetic_protection/level_4",
 		"mystic_relics:enchantments/kinetic_protection/level_5",
+		"mystic_relics:enchantments/juggernaut/apply_to_armor",
+		"mystic_relics:enchantments/poison_aspect/apply_to_weapon",
 		"mystic_relics:tools/crowbar/recipe",
 		"mystic_relics:tools/crowbar/modify_crafting",
 		"mystic_relics:relics/shard_of_frozen_time/resource"

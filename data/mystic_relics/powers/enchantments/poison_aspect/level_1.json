@@ -1,0 +1,27 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:poison",
+            "duration": 200,
+            "amplifier": 0,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true
+        }
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+    "target_condition": {
+        "type": "origins:status_effect",
+        "effect": "minecraft:poison",
+        "min_amplifier":0,
+        "max_amplifier": 2147483647,
+        "min_duration": 0,
+        "max_duration": 2147483647,
+        "inverted": true
+    }
+}

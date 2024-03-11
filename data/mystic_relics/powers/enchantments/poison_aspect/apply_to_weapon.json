@@ -1,0 +1,206 @@
+{
+   "type":"origins:multiple",
+   "level_1":{
+      "type":"origins:action_on_block_use",
+      "entity_action":{
+         "type":"origins:and",
+         "actions":[
+            {
+               "type":"origins:equipped_item_action",
+               "equipment_slot":"offhand",
+               "action":{
+                  "type":"origins:consume",
+                  "amount":1
+               }
+            },
+            {
+               "type":"origins:add_xp",
+               "levels":-5
+            },
+            {
+               "type":"origins:play_sound",
+               "sound":"minecraft:block.anvil.use",
+               "volume":1.00,
+               "pitch":1.00
+            }
+         ]
+      },
+      "block_condition":{
+         "type":"origins:in_tag",
+         "tag":"minecraft:anvil"
+      },
+      "item_condition":{
+         "type": "origins:and",
+         "conditions": [
+             {
+               "type": "origins:ingredient",
+               "ingredient": {
+                   "tag": "mystic_relics:swords"
+               }
+             },
+             {   
+               "type": "origins:or",
+               "conditions": [
+                   {
+                     "type": "origins:enchantment",
+                     "enchantment": "minecraft:fire_aspect",
+                     "use_modifications":true,
+                     "comparison": ">=",
+                     "compare_to": 1
+                   },
+                   {
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/poison_aspect/level_2"
+                   }
+               ],
+               "inverted": true
+             }
+         ]
+      },
+      "directions":[
+         "north",
+         "east",
+         "south",
+         "west",
+         "up",
+         "down"
+      ],
+      "hands":[
+         "main_hand"
+      ],
+      "held_item_action":{
+         "type":"origins:modify",
+         "modifier":"mystic_relics:enchantments/poison_aspect/level_1_apply"
+      },
+      "action_result":"success",
+      "condition":{
+         "type":"origins:and",
+         "conditions":[
+            {
+               "type":"origins:sneaking"
+            },
+            {
+               "type":"origins:equipped_item",
+               "equipment_slot":"offhand",
+               "item_condition":{
+                  "type":"origins:and",
+                  "conditions":[
+                     {
+                        "type":"origins:ingredient",
+                        "ingredient":{
+                           "item":"minecraft:enchanted_book"
+                        }
+                     },
+                     {
+                        "type":"origins:nbt",
+                        "nbt":"{CustomModelData:365050}"
+                     }
+                  ]
+               }
+            },
+            {
+               "type":"origins:xp_levels",
+               "comparison":">=",
+               "compare_to":5
+            }
+         ]
+      }
+   },
+   "level_2":{
+      "type":"origins:action_on_block_use",
+      "entity_action":{
+         "type":"origins:and",
+         "actions":[
+            {
+               "type":"origins:equipped_item_action",
+               "equipment_slot":"offhand",
+               "action":{
+                  "type":"origins:consume",
+                  "amount":1
+               }
+            },
+            {
+               "type":"origins:add_xp",
+               "levels":-10
+            },
+            {
+               "type":"origins:play_sound",
+               "sound":"minecraft:block.anvil.use",
+               "volume":1.00,
+               "pitch":1.00
+            }
+         ]
+      },
+      "block_condition":{
+         "type":"origins:in_tag",
+         "tag":"minecraft:anvil"
+      },
+      "item_condition":{
+         "type": "origins:and",
+         "conditions": [
+             {
+               "type": "origins:ingredient",
+               "ingredient": {
+                   "tag": "mystic_relics:swords"
+               }
+             },
+             {      
+               "type": "origins:enchantment",
+               "enchantment": "minecraft:fire_aspect",
+               "use_modifications":true,
+               "comparison": ">=",
+               "compare_to": 1,
+               "inverted": true
+             }
+         ]
+      },
+      "directions":[
+         "north",
+         "east",
+         "south",
+         "west",
+         "up",
+         "down"
+      ],
+      "hands":[
+         "main_hand"
+      ],
+      "held_item_action":{
+         "type":"origins:modify",
+         "modifier":"mystic_relics:enchantments/poison_aspect/level_2_apply"
+      },
+      "action_result":"success",
+      "condition":{
+         "type":"origins:and",
+         "conditions":[
+            {
+               "type":"origins:sneaking"
+            },
+            {
+               "type":"origins:equipped_item",
+               "equipment_slot":"offhand",
+               "item_condition":{
+                  "type":"origins:and",
+                  "conditions":[
+                     {
+                        "type":"origins:ingredient",
+                        "ingredient":{
+                           "item":"minecraft:enchanted_book"
+                        }
+                     },
+                     {
+                        "type":"origins:nbt",
+                        "nbt":"{CustomModelData:782917}"
+                     }
+                  ]
+               }
+            },
+            {
+               "type":"origins:xp_levels",
+               "comparison":">=",
+               "compare_to":10
+            }
+         ]
+      }
+   }
+}

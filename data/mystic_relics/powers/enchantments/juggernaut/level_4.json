@@ -11,15 +11,15 @@
                 {
                    "type":"origins:add_velocity",
                    "x":0.00,
-                   "y":0.30,
-                   "z":1.00,
+                   "y":0.50,
+                   "z":1.40,
                    "client":true,
                    "server":true,
                    "set":false
                 },
                 {
                    "type":"origins:damage",
-                   "amount":2,
+                   "amount":7,
                    "damage_type":"minecraft:player_attack"
                 },
                 {
@@ -82,8 +82,8 @@
        "modifier":{
           "attribute":"minecraft:generic.movement_speed",
           "operation":"multiply_total",
-          "value":0.05,
-          "name":"Speed Increase While Sprinting by 5%"
+          "value":0.20,
+          "name":"Speed Increase While Sprinting by 20%"
        },
        "tick_rate":20,
        "update_health":false,
@@ -105,7 +105,7 @@
                       },
                       {
                          "type":"origins:nbt",
-                         "nbt":"{Tags:[\"enchantment\",\"juggernaut\",\"level_1\"]}"
+                         "nbt":"{Tags:[\"enchantment\",\"juggernaut\",\"level_4\"]}"
                       }
                    ]
                 }
