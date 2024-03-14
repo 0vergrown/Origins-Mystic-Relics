@@ -69,8 +69,29 @@
          "main_hand"
       ],
       "held_item_action":{
-         "type":"origins:modify",
-         "modifier":"mystic_relics:enchantments/poison_aspect/level_1_apply"
+         "type": "origins:if_else",
+         "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Enchantments:[{}]}",
+            "inverted": true
+         },
+         "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                  "type":"origins:modify",
+                  "modifier":"mystic_relics:enchantments/poison_aspect/level_1_apply"
+                },
+                {    
+                  "type": "origins:merge_nbt",
+                  "nbt": "{Enchantments:[{}]}"
+                }
+            ]
+         },
+         "else_action": {
+            "type":"origins:modify",
+            "modifier":"mystic_relics:enchantments/poison_aspect/level_1_apply"
+         }
       },
       "action_result":"success",
       "condition":{
@@ -92,8 +113,8 @@
                         }
                      },
                      {
-                        "type":"origins:nbt",
-                        "nbt":"{CustomModelData:365050}"
+                        "type": "origins:nbt",
+                        "nbt": "{Tags:[\"enchantment\",\"poison_aspect_book\",\"level_1\"]}"
                      }
                   ]
                }
@@ -166,8 +187,29 @@
          "main_hand"
       ],
       "held_item_action":{
-         "type":"origins:modify",
-         "modifier":"mystic_relics:enchantments/poison_aspect/level_2_apply"
+         "type": "origins:if_else",
+         "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Enchantments:[{}]}",
+            "inverted": true
+         },
+         "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                  "type":"origins:modify",
+                  "modifier":"mystic_relics:enchantments/poison_aspect/level_2_apply"
+                },
+                {    
+                  "type": "origins:merge_nbt",
+                  "nbt": "{Enchantments:[{}]}"
+                }
+            ]
+         },
+         "else_action": {
+            "type":"origins:modify",
+            "modifier":"mystic_relics:enchantments/poison_aspect/level_2_apply"
+         }
       },
       "action_result":"success",
       "condition":{
@@ -190,7 +232,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{CustomModelData:782917}"
+                        "nbt":"{Tags:[\"enchantment\",\"poison_aspect_book\",\"level_2\"]}"
                      }
                   ]
                }

@@ -1,0 +1,125 @@
+{
+    "type":"origins:multiple",
+    "necrons_handle_on_top":{
+       "type":"origins:item_on_item",
+       "using_item_condition":{
+          "type":"origins:and",
+          "conditions":[
+             {
+                "type":"origins:ingredient",
+                "ingredient":{
+                   "item":"minecraft:stick"
+                }
+             },
+             {
+                "type":"origins:nbt",
+                "nbt":"{Tags:[\"crafting_ingredient\",\"necrons_handle\"],Enchantments:[{}]}"
+             },
+             {
+                "type": "origins:amount",
+                "comparison": "==",
+                "compare_to": 1
+             }
+          ]
+       },
+       "on_item_condition":{
+          "type":"origins:and",
+          "conditions":[
+             {
+                "type":"origins:ingredient",
+                "ingredient":{
+                   "item":"minecraft:wither_skeleton_skull"
+                }
+             },
+             {
+                "type":"origins:nbt",
+                "nbt":"{Tags:[\"crafting_ingredient\",\"wither_catalyst\"]}"
+             },
+             {
+                "type": "origins:amount",
+                "comparison": "==",
+                "compare_to": 24
+             }
+          ]
+       },
+       "result":{
+          "item":"minecraft:iron_sword",
+          "amount":1
+       },
+       "result_from_on_stack":0,
+       "using_item_action":{
+          "type":"origins:consume",
+          "amount":1
+       },
+       "on_item_action":{
+          "type":"origins:consume",
+          "amount":1
+       },
+       "result_item_action":{
+          "type":"origins:modify",
+          "modifier":"mystic_relics:weapons/swords/necrons_blade/abilities_apply"
+       },
+       "click_type":"secondary"
+    },
+    "wither_catalyst_on_top":{
+       "type":"origins:item_on_item",
+       "using_item_condition":{
+          "type":"origins:and",
+          "conditions":[
+             {
+                "type":"origins:ingredient",
+                "ingredient":{
+                   "item":"minecraft:wither_skeleton_skull"
+                }
+             },
+             {
+                "type":"origins:nbt",
+                "nbt":"{Tags:[\"crafting_ingredient\",\"wither_catalyst\"]}"
+             },
+             {
+                "type": "origins:amount",
+                "comparison": "==",
+                "compare_to": 24
+             }
+          ]
+       },
+       "on_item_condition":{
+          "type":"origins:and",
+          "conditions":[
+             {
+                "type":"origins:ingredient",
+                "ingredient":{
+                   "item":"minecraft:stick"
+                }
+             },
+             {
+                "type":"origins:nbt",
+                "nbt":"{Tags:[\"crafting_ingredient\",\"necrons_handle\"],Enchantments:[{}]}"
+             },
+             {
+                "type": "origins:amount",
+                "comparison": "==",
+                "compare_to": 1
+             }
+          ]
+       },
+       "result":{
+          "item":"minecraft:iron_sword",
+          "amount":1
+       },
+       "result_from_on_stack":0,
+       "using_item_action":{
+          "type":"origins:consume",
+          "amount":1
+       },
+       "on_item_action":{
+          "type":"origins:consume",
+          "amount":1
+       },
+       "result_item_action":{
+          "type":"origins:modify",
+          "modifier":"mystic_relics:weapons/swords/necrons_blade/abilities_apply"
+       },
+       "click_type":"secondary"
+    }
+}

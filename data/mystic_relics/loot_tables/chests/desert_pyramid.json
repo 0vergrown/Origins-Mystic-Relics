@@ -183,7 +183,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:77782}"
+                     "tag":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_1\"]}"
                   }
                ]
             },
@@ -219,7 +219,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:824449}"
+                     "tag":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_2\"]}"
                   }
                ]
             },
@@ -255,7 +255,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:368095}"
+                     "tag":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_3\"]}"
                   }
                ]
             },
@@ -291,7 +291,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:387373}"
+                     "tag":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_4\"]}"
                   }
                ]
             },
@@ -327,7 +327,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:328477}"
+                     "tag":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_5\"]}"
                   }
                ]
             },
@@ -363,7 +363,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:136305}"
+                     "tag":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_1\"]}"
                   }
                ]
             },
@@ -399,7 +399,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:863577}"
+                     "tag":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_2\"]}"
                   }
                ]
             },
@@ -435,7 +435,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:475478}"
+                     "tag":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_3\"]}"
                   }
                ]
             },
@@ -471,7 +471,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:832439}"
+                     "tag":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_4\"]}"
                   }
                ]
             },
@@ -507,7 +507,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:78758}"
+                     "tag":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_5\"]}"
                   }
                ]
             },
@@ -543,7 +543,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:365050}"
+                     "tag":"{Tags:[\"enchantment\",\"poison_aspect_book\",\"level_1\"]}"
                   }
                ]
             },
@@ -579,7 +579,7 @@
                   },
                   {
                      "function":"minecraft:set_nbt",
-                     "tag":"{CustomModelData:782917}"
+                     "tag":"{Tags:[\"enchantment\",\"poison_aspect_book\",\"level_2\"]}"
                   }
                ]
             },

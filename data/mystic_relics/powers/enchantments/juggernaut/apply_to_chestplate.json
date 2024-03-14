@@ -45,8 +45,29 @@
          "main_hand"
       ],
       "held_item_action":{
-         "type":"origins:modify",
-         "modifier":"mystic_relics:enchantments/juggernaut/level_1_apply"
+         "type": "origins:if_else",
+         "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Enchantments:[{}]}",
+            "inverted": true
+         },
+         "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                  "type":"origins:modify",
+                  "modifier":"mystic_relics:enchantments/juggernaut/level_1_apply"
+                },
+                {    
+                  "type": "origins:merge_nbt",
+                  "nbt": "{Enchantments:[{}]}"
+                }
+            ]
+         },
+         "else_action": {
+            "type":"origins:modify",
+            "modifier":"mystic_relics:enchantments/juggernaut/level_1_apply"
+         }
       },
       "action_result":"success",
       "condition":{
@@ -69,7 +90,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{CustomModelData:136305}"
+                        "nbt":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_1\"]}"
                      }
                   ]
                }
@@ -127,8 +148,29 @@
          "main_hand"
       ],
       "held_item_action":{
-         "type":"origins:modify",
-         "modifier":"mystic_relics:enchantments/juggernaut/level_2_apply"
+         "type": "origins:if_else",
+         "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Enchantments:[{}]}",
+            "inverted": true
+         },
+         "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                  "type":"origins:modify",
+                  "modifier":"mystic_relics:enchantments/juggernaut/level_2_apply"
+                },
+                {    
+                  "type": "origins:merge_nbt",
+                  "nbt": "{Enchantments:[{}]}"
+                }
+            ]
+         },
+         "else_action": {
+            "type":"origins:modify",
+            "modifier":"mystic_relics:enchantments/juggernaut/level_2_apply"
+         }
       },
       "action_result":"success",
       "condition":{
@@ -151,7 +193,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{CustomModelData:863577}"
+                        "nbt":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_2\"]}"
                      }
                   ]
                }
@@ -209,8 +251,29 @@
          "main_hand"
       ],
       "held_item_action":{
-         "type":"origins:modify",
-         "modifier":"mystic_relics:enchantments/juggernaut/level_3_apply"
+         "type": "origins:if_else",
+         "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Enchantments:[{}]}",
+            "inverted": true
+         },
+         "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                  "type":"origins:modify",
+                  "modifier":"mystic_relics:enchantments/juggernaut/level_3_apply"
+                },
+                {    
+                  "type": "origins:merge_nbt",
+                  "nbt": "{Enchantments:[{}]}"
+                }
+            ]
+         },
+         "else_action": {
+            "type":"origins:modify",
+            "modifier":"mystic_relics:enchantments/juggernaut/level_3_apply"
+         }
       },
       "action_result":"success",
       "condition":{
@@ -233,7 +296,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{CustomModelData:475478}"
+                        "nbt":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_3\"]}"
                      }
                   ]
                }
@@ -291,8 +354,29 @@
          "main_hand"
       ],
       "held_item_action":{
-         "type":"origins:modify",
-         "modifier":"mystic_relics:enchantments/juggernaut/level_4_apply"
+         "type": "origins:if_else",
+         "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Enchantments:[{}]}",
+            "inverted": true
+         },
+         "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                  "type":"origins:modify",
+                  "modifier":"mystic_relics:enchantments/juggernaut/level_4_apply"
+                },
+                {    
+                  "type": "origins:merge_nbt",
+                  "nbt": "{Enchantments:[{}]}"
+                }
+            ]
+         },
+         "else_action": {
+            "type":"origins:modify",
+            "modifier":"mystic_relics:enchantments/juggernaut/level_4_apply"
+         }
       },
       "action_result":"success",
       "condition":{
@@ -315,7 +399,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{CustomModelData:832439}"
+                        "nbt":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_4\"]}"
                      }
                   ]
                }
@@ -373,8 +457,29 @@
          "main_hand"
       ],
       "held_item_action":{
-         "type":"origins:modify",
-         "modifier":"mystic_relics:enchantments/juggernaut/level_5_apply"
+         "type": "origins:if_else",
+         "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Enchantments:[{}]}",
+            "inverted": true
+         },
+         "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                  "type":"origins:modify",
+                  "modifier":"mystic_relics:enchantments/juggernaut/level_5_apply"
+                },
+                {    
+                  "type": "origins:merge_nbt",
+                  "nbt": "{Enchantments:[{}]}"
+                }
+            ]
+         },
+         "else_action": {
+            "type":"origins:modify",
+            "modifier":"mystic_relics:enchantments/juggernaut/level_5_apply"
+         }
       },
       "action_result":"success",
       "condition":{
@@ -397,7 +502,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{CustomModelData:78758}"
+                        "nbt":"{Tags:[\"enchantment\",\"juggernaut_book\",\"level_5\"]}"
                      }
                   ]
                }

@@ -4,10 +4,10 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:poison",
-            "duration": 400,
+            "duration": 200,
             "amplifier": 1,
             "is_ambient": false,
-            "show_particles": false,
+            "show_particles": true,
             "show_icon": true
         }
     },

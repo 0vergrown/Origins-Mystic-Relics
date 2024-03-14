@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "target_condition":{
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:wither"
+    },
+    "modifier":{
+        "operation":"multiply_total",
+        "value":0.50,
+        "name":"Increase Damage To Wither by 50%"
+    }
+}

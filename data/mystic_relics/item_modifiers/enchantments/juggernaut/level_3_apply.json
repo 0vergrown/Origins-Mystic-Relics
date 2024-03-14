@@ -20,6 +20,18 @@
       "tag":"{Tags:[\"enchantment\",\"juggernaut\",\"level_3\"]}"
    },
    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "Speed Increase While Sprinting by 15%",
+          "amount": 0.15,
+          "operation": "multiply_total",
+          "slot": "chest"
+        }
+      ]
+   },
+   {
       "function":"apoli:add_power",
       "power":"mystic_relics:enchantments/juggernaut/level_3",
       "slot":"chest",
