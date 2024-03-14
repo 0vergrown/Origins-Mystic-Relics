@@ -59,7 +59,7 @@
           "type":"origins:modify",
           "modifier":"mystic_relics:weapons/swords/necrons_blade/abilities_apply"
        },
-       "click_type":"secondary"
+       "click_type":"primary"
     },
     "wither_catalyst_on_top":{
        "type":"origins:item_on_item",
@@ -120,6 +120,6 @@
           "type":"origins:modify",
           "modifier":"mystic_relics:weapons/swords/necrons_blade/abilities_apply"
        },
-       "click_type":"secondary"
+       "click_type":"primary"
     }
 }
