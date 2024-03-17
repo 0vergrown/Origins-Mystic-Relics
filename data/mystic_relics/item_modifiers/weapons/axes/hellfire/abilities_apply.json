@@ -1,0 +1,41 @@
+[
+    {
+       "function":"minecraft:set_name",
+       "entity":"this",
+       "name":{
+          "text":"Hellfire Axe",
+          "color":"dark_red",
+          "bold":false,
+          "italic":false,
+          "underlined":false,
+          "strikethrough":false,
+          "obfuscated":false
+       }
+    },
+    {
+       "function":"minecraft:set_enchantments",
+       "enchantments":{
+          "minecraft:fire_aspect":10
+       },
+       "add":false
+    },
+    {
+       "function":"minecraft:set_attributes",
+       "modifiers":[
+          {
+             "attribute":"minecraft:generic.movement_speed",
+             "name":"Speed Increase While Holding Hellfire Axe by 20%",
+             "amount":0.20,
+             "operation":"multiply_base",
+             "slot":"mainhand"
+          }
+       ]
+    },
+    {
+       "function":"apoli:add_power",
+       "power":"mystic_relics:weapons/axes/hellfire/abilities",
+       "slot":"mainhand",
+       "hidden":true,
+       "negative":false
+    }
+]

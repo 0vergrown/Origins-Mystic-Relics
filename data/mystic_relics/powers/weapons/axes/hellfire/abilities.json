@@ -1,0 +1,67 @@
+{
+    "type":"origins:multiple",
+    "particle_effects_when_held":{
+        "type": "origins:particle",
+        "particle": "minecraft:flame",
+        "count": 1,
+        "speed": 0.001,
+        "force": false,
+        "spread": {
+            "x": 1.00,
+            "y": 1.00,
+            "z": 1.00
+        },
+        "frequency": 15,
+        "visible_in_first_person": false,
+        "visible_while_invisible": true
+    },
+    "target_action_on_hit":{
+       "type":"origins:target_action_on_hit",
+       "entity_action":{
+          "type":"origins:and",
+          "actions":[
+             {
+                "type":"origins:spawn_particles",
+                "particle":"minecraft:flame",
+                "count":300,
+                "speed":0.2,
+                "force":true,
+                "spread":{
+                   "x":0.3,
+                   "y":0.3,
+                   "z":0.3
+                },
+                "offset_y":1.0
+             },
+             {
+                "type":"origins:spawn_particles",
+                "particle":"minecraft:lava",
+                "count":300,
+                "speed":0.2,
+                "force":true,
+                "spread":{
+                   "x":0.3,
+                   "y":0.3,
+                   "z":0.3
+                },
+                "offset_y":1.0
+             },
+             {
+                "type":"origins:explode",
+                "power":5,
+                "destruction_type":"break",
+                "damage_self":true,
+                "create_fire":false
+             }
+          ]
+       }
+    },
+    "right_click":{
+       "type":"origins:invisibility",
+       "render_armor":false,
+       "condition":{
+          "type":"origins:power_active",
+          "power":"*:*_toggle"
+       }
+    }
+}
