@@ -51,7 +51,7 @@
                "power":4,
                "destruction_type":"break",
                "damage_self":true,
-               "create_fire":false
+               "create_fire":true
             }
          ]
       }
@@ -82,11 +82,26 @@
             {
                "type":"origins:spawn_entity",
                "entity_type":"minecraft:armor_stand",
-               "tag":"{Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoGravity:1b,Marker:1b,Tags:[\"hellfire_mark\"],DisabledSlots:4144959}",
+               "tag":"{Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoGravity:1b,Marker:1b,Tags:[\"hellfire_marker\"],DisabledSlots:4144959}",
                "entity_action": {
                   "type": "origins:grant_power",
                   "power": "mystic_relics:weapons/axes/hellfire/armor_stand_effects",
                   "source": "mystic_relics:weapons/axes/hellfire/armor_stand_effects"
+               }
+            },
+            {
+               "type":"origins:execute_command",
+               "command":"execute as @e[type=minecraft:armor_stand,tag=hellfire_marker,sort=nearest,limit=1] at @s rotated as @p run tp @s ~ ~ ~ ~ ~"
+            },
+            {
+               "type":"origins:apply_effect",
+               "effect":{
+                  "effect":"minecraft:resistance",
+                  "duration":60,
+                  "amplifier":4,
+                  "is_ambient":false,
+                  "show_particles":false,
+                  "show_icon":false
                }
             },
             {
@@ -104,16 +119,6 @@
       "key":{
          "key":"key.use",
          "continuous":false
-      },
-      "condition":{
-         "type":"origins:equipped_item",
-         "equipment_slot":"mainhand",
-         "item_condition":{
-            "type":"origins:ingredient",
-            "ingredient":{
-               "item":"minecraft:sugar"
-            }
-         }
       }
    }
 }
