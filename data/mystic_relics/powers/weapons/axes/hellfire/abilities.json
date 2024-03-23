@@ -11,7 +11,7 @@
          "y":1.00,
          "z":1.00
       },
-      "frequency":15,
+      "frequency":10,
       "visible_in_first_person":false,
       "visible_while_invisible":true
    },
