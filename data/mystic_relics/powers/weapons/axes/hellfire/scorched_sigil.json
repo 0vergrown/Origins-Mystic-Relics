@@ -1,0 +1,49 @@
+{
+    "name":"Scorched Sigil",
+    "description":"Creates a chain of explosions wherever the wielder looks. [Right-Click]",
+    "type":"origins:active_self",
+    "entity_action":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:spawn_entity",
+             "entity_type":"minecraft:armor_stand",
+             "tag":"{Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoGravity:1b,Marker:1b,Tags:[\"hellfire_marker\"],DisabledSlots:4144959}",
+             "entity_action": {
+                "type": "origins:grant_power",
+                "power": "mystic_relics:weapons/axes/hellfire/armor_stand_effects",
+                "source": "mystic_relics:weapons/axes/hellfire/armor_stand_effects"
+             }
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"execute as @e[type=minecraft:armor_stand,tag=hellfire_marker,sort=nearest,limit=1] at @s rotated as @p run tp @s ~ ~ ~ ~ ~"
+          },
+          {
+             "type":"origins:apply_effect",
+             "effect":{
+                "effect":"minecraft:resistance",
+                "duration":60,
+                "amplifier":4,
+                "is_ambient":false,
+                "show_particles":false,
+                "show_icon":false
+             }
+          },
+          {
+             "type": "origins:play_sound",
+             "sound": "minecraft:entity.ender_dragon.shoot",
+             "volume": 1.00,
+             "pitch": 1.00
+          }
+       ]
+    },
+    "cooldown":1,
+    "hud_render":{
+       "should_render":false
+    },
+    "key":{
+       "key":"key.use",
+       "continuous":false
+    }
+}

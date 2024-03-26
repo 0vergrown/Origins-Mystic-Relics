@@ -1,23 +1,29 @@
 {
-    "type": "origins:action_over_time",
-    "rising_action":{
-        "type": "origins:heal",
-        "amount": 1
+    "type":"origins:action_over_time",
+    "entity_action":{
+       "type":"origins:area_of_effect",
+       "radius":1.20,
+       "shape":"cube",
+       "bientity_action":{
+          "type":"origins:actor_action",
+          "action":{
+             "type":"origins:heal",
+             "amount":1
+          }
+       },
+       "bientity_condition":{
+          "type":"origins:target_condition",
+          "condition":{
+             "type":"origins:entity_type",
+             "entity_type":"minecraft:experience_orb"
+          }
+       },
+       "include_actor":false
     },
-    "interval": 1,
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:xp_points",
-                "comparison": "<=",
-                "compare_to": 10
-            },
-            {      
-                "type": "origins:health",
-                "comparison": "<",
-                "compare_to": 20
-            }
-        ]
+    "interval":1,
+    "condition":{
+       "type":"origins:health",
+       "comparison":"!=",
+       "compare_to":20
     }
 }

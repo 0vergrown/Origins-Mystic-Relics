@@ -33,9 +33,23 @@
     },
     {
        "function":"apoli:add_power",
-       "power":"mystic_relics:weapons/axes/hellfire/abilities",
+       "power":"mystic_relics:weapons/axes/hellfire/infernos_wrath",
        "slot":"mainhand",
-       "hidden":true,
+       "hidden":false,
        "negative":false
-    }
+    },
+    {
+      "function":"apoli:add_power",
+      "power":"mystic_relics:weapons/axes/hellfire/scorched_sigil",
+      "slot":"mainhand",
+      "hidden":false,
+      "negative":false
+   },
+   {
+      "function":"apoli:add_power",
+      "power":"mystic_relics:weapons/axes/hellfire/emberheart_mantle",
+      "slot":"mainhand",
+      "hidden":false,
+      "negative":false
+   }
 ]

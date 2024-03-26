@@ -1,0 +1,23 @@
+{
+   "name":"Emberheart Mantle",
+   "description":"Grants full immunity to fire and surrounds the wielder with a fiery aura [Passive]",
+   "type":"origins:multiple",
+   "particle_effects_when_held":{
+      "type":"origins:particle",
+      "particle":"minecraft:flame",
+      "count":1,
+      "speed":0.001,
+      "force":false,
+      "spread":{
+         "x":1.00,
+         "y":1.00,
+         "z":1.00
+      },
+      "frequency":1,
+      "visible_in_first_person":false,
+      "visible_while_invisible":true
+   },
+   "fire_immunity":{
+      "type": "origins:fire_immunity"
+   }
+}
