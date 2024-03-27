@@ -16,7 +16,8 @@
 		"mystic_relics:tools/crowbar/recipe",
 		"mystic_relics:tools/crowbar/modify_crafting",
 
-		"mystic_relics:relics/shard_of_frozen_time/resource"
+		"mystic_relics:relics/shard_of_frozen_time/resource",
+		"mystic_relics:relics/enders_boon/summon_ritual"
 	],
 	"icon": "minecraft:soul_torch",
 	"unchoosable": false,
