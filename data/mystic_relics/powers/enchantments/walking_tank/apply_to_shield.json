@@ -33,38 +33,29 @@
          "type":"origins:and",
          "conditions":[
             {
-               "type":"origins:ingredient",
-               "ingredient":{
-                  "tag":"minecraft:swords"
+               "type": "origins:ingredient",
+               "ingredient": {
+                   "item": "minecraft:shield"
                }
             },
             {
                "type":"origins:or",
                "conditions":[
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:sharpness",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "head"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:smite",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "chest"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:bane_of_arthropods",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "legs"
                   },
                   {
-                     "type":"origins:has_power",
-                     "power":"mystic_relics:enchantments/bane_of_sinners/level_1"
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "feet"
                   }
                ],
                "inverted":true
@@ -94,7 +85,7 @@
             "actions":[
                {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/fury/level_1_apply"
+                  "modifier":"mystic_relics:enchantments/walking_tank/level_1_apply"
                },
                {
                   "type":"origins:merge_nbt",
@@ -104,7 +95,7 @@
          },
          "else_action":{
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/fury/level_1_apply"
+            "modifier":"mystic_relics:enchantments/walking_tank/level_1_apply"
          }
       },
       "action_result":"success",
@@ -128,7 +119,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"fury_book\",\"level_1\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"walking_tank_book\",\"level_1\"]}"
                      }
                   ]
                }
@@ -174,38 +165,29 @@
          "type":"origins:and",
          "conditions":[
             {
-               "type":"origins:ingredient",
-               "ingredient":{
-                  "tag":"minecraft:swords"
+               "type": "origins:ingredient",
+               "ingredient": {
+                   "item": "minecraft:shield"
                }
             },
             {
                "type":"origins:or",
                "conditions":[
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:sharpness",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "head"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:smite",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "chest"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:bane_of_arthropods",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "legs"
                   },
                   {
-                     "type":"origins:has_power",
-                     "power":"mystic_relics:enchantments/bane_of_sinners/level_1"
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "feet"
                   }
                ],
                "inverted":true
@@ -235,7 +217,7 @@
             "actions":[
                {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/fury/level_2_apply"
+                  "modifier":"mystic_relics:enchantments/walking_tank/level_2_apply"
                },
                {
                   "type":"origins:merge_nbt",
@@ -245,7 +227,7 @@
          },
          "else_action":{
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/fury/level_2_apply"
+            "modifier":"mystic_relics:enchantments/walking_tank/level_2_apply"
          }
       },
       "action_result":"success",
@@ -269,7 +251,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"fury_book\",\"level_2\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"walking_tank_book\",\"level_2\"]}"
                      }
                   ]
                }
@@ -315,38 +297,29 @@
          "type":"origins:and",
          "conditions":[
             {
-               "type":"origins:ingredient",
-               "ingredient":{
-                  "tag":"minecraft:swords"
+               "type": "origins:ingredient",
+               "ingredient": {
+                   "item": "minecraft:shield"
                }
             },
             {
                "type":"origins:or",
                "conditions":[
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:sharpness",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "head"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:smite",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "chest"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:bane_of_arthropods",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "legs"
                   },
                   {
-                     "type":"origins:has_power",
-                     "power":"mystic_relics:enchantments/bane_of_sinners/level_1"
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "feet"
                   }
                ],
                "inverted":true
@@ -376,7 +349,7 @@
             "actions":[
                {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/fury/level_3_apply"
+                  "modifier":"mystic_relics:enchantments/walking_tank/level_3_apply"
                },
                {
                   "type":"origins:merge_nbt",
@@ -386,7 +359,7 @@
          },
          "else_action":{
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/fury/level_3_apply"
+            "modifier":"mystic_relics:enchantments/walking_tank/level_3_apply"
          }
       },
       "action_result":"success",
@@ -410,7 +383,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"fury_book\",\"level_3\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"walking_tank_book\",\"level_3\"]}"
                      }
                   ]
                }
@@ -456,38 +429,29 @@
          "type":"origins:and",
          "conditions":[
             {
-               "type":"origins:ingredient",
-               "ingredient":{
-                  "tag":"minecraft:swords"
+               "type": "origins:ingredient",
+               "ingredient": {
+                   "item": "minecraft:shield"
                }
             },
             {
                "type":"origins:or",
                "conditions":[
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:sharpness",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "head"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:smite",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "chest"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:bane_of_arthropods",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "legs"
                   },
                   {
-                     "type":"origins:has_power",
-                     "power":"mystic_relics:enchantments/bane_of_sinners/level_1"
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "feet"
                   }
                ],
                "inverted":true
@@ -517,7 +481,7 @@
             "actions":[
                {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/fury/level_4_apply"
+                  "modifier":"mystic_relics:enchantments/walking_tank/level_4_apply"
                },
                {
                   "type":"origins:merge_nbt",
@@ -527,7 +491,7 @@
          },
          "else_action":{
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/fury/level_4_apply"
+            "modifier":"mystic_relics:enchantments/walking_tank/level_4_apply"
          }
       },
       "action_result":"success",
@@ -551,7 +515,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"fury_book\",\"level_4\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"walking_tank_book\",\"level_4\"]}"
                      }
                   ]
                }
@@ -597,38 +561,29 @@
          "type":"origins:and",
          "conditions":[
             {
-               "type":"origins:ingredient",
-               "ingredient":{
-                  "tag":"minecraft:swords"
+               "type": "origins:ingredient",
+               "ingredient": {
+                   "item": "minecraft:shield"
                }
             },
             {
                "type":"origins:or",
                "conditions":[
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:sharpness",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "head"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:smite",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "chest"
                   },
                   {
-                     "type":"origins:enchantment",
-                     "enchantment":"minecraft:bane_of_arthropods",
-                     "use_modifications":true,
-                     "comparison":">=",
-                     "compare_to":1
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "legs"
                   },
                   {
-                     "type":"origins:has_power",
-                     "power":"mystic_relics:enchantments/bane_of_sinners/level_1"
+                     "type": "origins:is_equippable",
+                     "equipment_slot": "feet"
                   }
                ],
                "inverted":true
@@ -658,7 +613,7 @@
             "actions":[
                {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/fury/level_5_apply"
+                  "modifier":"mystic_relics:enchantments/walking_tank/level_5_apply"
                },
                {
                   "type":"origins:merge_nbt",
@@ -668,7 +623,7 @@
          },
          "else_action":{
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/fury/level_5_apply"
+            "modifier":"mystic_relics:enchantments/walking_tank/level_5_apply"
          }
       },
       "action_result":"success",
@@ -692,7 +647,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"fury_book\",\"level_5\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"walking_tank_book\",\"level_5\"]}"
                      }
                   ]
                }

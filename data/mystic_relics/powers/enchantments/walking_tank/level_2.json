@@ -1,0 +1,41 @@
+{
+    "name":"Walking Tank II",
+    "description":"Become 10% slower but absorb 10% more damage (This Enchantment Is For Shields)",
+    "type":"origins:multiple",
+    "slower_walk":{
+       "type":"origins:conditioned_attribute",
+       "modifier":{
+          "attribute":"minecraft:generic.movement_speed",
+          "operation":"multiply_total",
+          "value":-0.10,
+          "name":"Speed Decrease by 10%"
+       },
+       "tick_rate":20,
+       "update_health":false,
+       "condition":{
+          "type":"origins:using_item",
+          "item_condition":{
+             "type":"origins:ingredient",
+             "ingredient":{
+                "item":"minecraft:shield"
+             }
+          }
+       }
+    },
+    "absorb_more_damage":{
+       "type":"origins:modify_damage_taken",
+       "modifier":{
+          "operation":"multiply_total",
+          "value":-0.10
+       },
+       "condition":{
+          "type":"origins:using_item",
+          "item_condition":{
+             "type":"origins:ingredient",
+             "ingredient":{
+                "item":"minecraft:shield"
+             }
+          }
+       }
+    }
+}

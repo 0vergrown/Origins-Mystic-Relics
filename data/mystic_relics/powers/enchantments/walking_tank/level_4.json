@@ -1,0 +1,41 @@
+{
+    "name":"Walking Tank IV",
+    "description":"Become 20% slower but absorb 20% more damage (This Enchantment Is For Shields)",
+    "type":"origins:multiple",
+    "slower_walk":{
+       "type":"origins:conditioned_attribute",
+       "modifier":{
+          "attribute":"minecraft:generic.movement_speed",
+          "operation":"multiply_total",
+          "value":-0.20,
+          "name":"Speed Decrease by 20%"
+       },
+       "tick_rate":20,
+       "update_health":false,
+       "condition":{
+          "type":"origins:using_item",
+          "item_condition":{
+             "type":"origins:ingredient",
+             "ingredient":{
+                "item":"minecraft:shield"
+             }
+          }
+       }
+    },
+    "absorb_more_damage":{
+       "type":"origins:modify_damage_taken",
+       "modifier":{
+          "operation":"multiply_total",
+          "value":-0.20
+       },
+       "condition":{
+          "type":"origins:using_item",
+          "item_condition":{
+             "type":"origins:ingredient",
+             "ingredient":{
+                "item":"minecraft:shield"
+             }
+          }
+       }
+    }
+}
