@@ -30,63 +30,8 @@
          "tag":"minecraft:anvil"
       },
       "item_condition":{
-         "type": "origins:and",
-         "conditions": [
-             {
-               "type": "origins:is_equippable",
-               "equipment_slot": "head"
-             },
-             {      
-               "type": "origins:or",
-               "conditions": [
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_3\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_4\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_5\"]}"
-                   }
-               ],
-               "inverted": true
-             }
-         ]
+         "type": "origins:is_equippable",
+         "equipment_slot": "feet"
       },
       "directions":[
          "north",
@@ -111,7 +56,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_1_apply"
+                  "modifier":"mystic_relics:enchantments/speed_freak/level_1_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -121,7 +66,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_1_apply"
+            "modifier":"mystic_relics:enchantments/speed_freak/level_1_apply"
          }
       },
       "action_result":"success",
@@ -145,7 +90,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_1\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"speed_freak_book\",\"level_1\"]}"
                      }
                   ]
                }
@@ -188,63 +133,8 @@
          "tag":"minecraft:anvil"
       },
       "item_condition":{
-         "type": "origins:and",
-         "conditions": [
-             {
-               "type": "origins:is_equippable",
-               "equipment_slot": "head"
-             },
-             {      
-               "type": "origins:or",
-               "conditions": [
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_1\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_3\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_4\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_5\"]}"
-                   }
-               ],
-               "inverted": true
-             }
-         ]
+         "type": "origins:is_equippable",
+         "equipment_slot": "feet"
       },
       "directions":[
          "north",
@@ -269,7 +159,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_2_apply"
+                  "modifier":"mystic_relics:enchantments/speed_freak/level_2_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -279,7 +169,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_2_apply"
+            "modifier":"mystic_relics:enchantments/speed_freak/level_2_apply"
          }
       },
       "action_result":"success",
@@ -303,7 +193,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_2\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"speed_freak_book\",\"level_2\"]}"
                      }
                   ]
                }
@@ -346,63 +236,8 @@
          "tag":"minecraft:anvil"
       },
       "item_condition":{
-         "type": "origins:and",
-         "conditions": [
-             {
-               "type": "origins:is_equippable",
-               "equipment_slot": "head"
-             },
-             {      
-               "type": "origins:or",
-               "conditions": [
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_1\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_4\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_5\"]}"
-                   }
-               ],
-               "inverted": true
-             }
-         ]
+         "type": "origins:is_equippable",
+         "equipment_slot": "feet"
       },
       "directions":[
          "north",
@@ -427,7 +262,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_3_apply"
+                  "modifier":"mystic_relics:enchantments/speed_freak/level_3_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -437,7 +272,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_3_apply"
+            "modifier":"mystic_relics:enchantments/speed_freak/level_3_apply"
          }
       },
       "action_result":"success",
@@ -461,7 +296,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_3\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"speed_freak_book\",\"level_3\"]}"
                      }
                   ]
                }
@@ -504,63 +339,8 @@
          "tag":"minecraft:anvil"
       },
       "item_condition":{
-         "type": "origins:and",
-         "conditions": [
-             {
-               "type": "origins:is_equippable",
-               "equipment_slot": "head"
-             },
-             {      
-               "type": "origins:or",
-               "conditions": [
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_1\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_3\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_5\"]}"
-                   }
-               ],
-               "inverted": true
-             }
-         ]
+         "type": "origins:is_equippable",
+         "equipment_slot": "feet"
       },
       "directions":[
          "north",
@@ -585,7 +365,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_4_apply"
+                  "modifier":"mystic_relics:enchantments/speed_freak/level_4_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -595,7 +375,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_4_apply"
+            "modifier":"mystic_relics:enchantments/speed_freak/level_4_apply"
          }
       },
       "action_result":"success",
@@ -619,7 +399,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_4\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"speed_freak_book\",\"level_4\"]}"
                      }
                   ]
                }
@@ -662,63 +442,8 @@
          "tag":"minecraft:anvil"
       },
       "item_condition":{
-         "type": "origins:and",
-         "conditions": [
-             {
-               "type": "origins:is_equippable",
-               "equipment_slot": "head"
-             },
-             {      
-               "type": "origins:or",
-               "conditions": [
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_1\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_3\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_4\"]}"
-                   }
-               ],
-               "inverted": true
-             }
-         ]
+         "type": "origins:is_equippable",
+         "equipment_slot": "feet"
       },
       "directions":[
          "north",
@@ -743,7 +468,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_5_apply"
+                  "modifier":"mystic_relics:enchantments/speed_freak/level_5_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -753,7 +478,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_5_apply"
+            "modifier":"mystic_relics:enchantments/speed_freak/level_5_apply"
          }
       },
       "action_result":"success",
@@ -777,7 +502,7 @@
                      },
                      {
                         "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_5\"]}"
+                        "nbt":"{Tags:[\"enchantment\",\"speed_freak_book\",\"level_5\"]}"
                      }
                   ]
                }

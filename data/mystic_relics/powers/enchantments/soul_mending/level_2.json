@@ -1,0 +1,22 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:modify_inventory",
+        "inventory_type": "inventory",
+        "item_action":{
+            "type": "origins:damage",
+            "amount": -10,
+            "ignore_unbreaking": false
+        },
+        "item_condition": {
+            "type": "origins:has_power",
+            "power": "mystic_relics:enchantments/soul_mending/level_1"
+        },
+        "process_mode": "items",
+        "limit": 1
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    }
+}

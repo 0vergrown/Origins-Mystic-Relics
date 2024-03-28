@@ -1,0 +1,14 @@
+{
+    "name":"Bane Of Sinners I",
+    "description":"More damage to nether mobs by 10%",
+    "type": "origins:modify_damage_dealt",
+    "target_condition":{
+        "type": "origins:in_tag",
+        "tag": "mystic_relics:nether_mobs"
+    },
+    "modifier":{
+        "operation":"multiply_total",
+        "value":0.10,
+        "name":"Deal More Damage To Nether Mobs By 10%"
+     }
+}

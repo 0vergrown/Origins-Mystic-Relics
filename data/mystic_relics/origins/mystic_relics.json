@@ -5,9 +5,21 @@
 		"mystic_relics:enchantments/kinetic_protection/apply_to_chestplate",
 		"mystic_relics:enchantments/kinetic_protection/apply_to_leggings",
 		"mystic_relics:enchantments/kinetic_protection/apply_to_boots",
+
+		"mystic_relics:enchantments/soul_mending/apply_to_helmet",
+		"mystic_relics:enchantments/soul_mending/apply_to_chestplate",
+		"mystic_relics:enchantments/soul_mending/apply_to_leggings",
+		"mystic_relics:enchantments/soul_mending/apply_to_boots",
+		"mystic_relics:enchantments/soul_mending/apply_to_mainhand",
+
 		"mystic_relics:enchantments/juggernaut/apply_to_chestplate",
 		"mystic_relics:enchantments/revitalize/apply_to_chestplate_or_combine",
+
+		"mystic_relics:enchantments/speed_freak/apply_to_boots",
+
 		"mystic_relics:enchantments/poison_aspect/apply_to_weapon",
+		"mystic_relics:enchantments/fury/apply_to_weapon",
+		"mystic_relics:enchantments/bane_of_sinners/apply_to_weapon",
 
 		"mystic_relics:weapons/swords/necrons_blade/crafting_recipe",
 

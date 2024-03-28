@@ -145,7 +145,7 @@
                       },
                       {
                          "type":"origins:nbt",
-                         "nbt":"{CustomModelData:77782}"
+                         "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_1\"]}"
                       }
                    ]
                 }
@@ -303,7 +303,7 @@
                       },
                       {
                          "type":"origins:nbt",
-                         "nbt":"{CustomModelData:824449}"
+                         "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_2\"]}"
                       }
                    ]
                 }
@@ -461,7 +461,7 @@
                       },
                       {
                          "type":"origins:nbt",
-                         "nbt":"{CustomModelData:368095}"
+                         "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_3\"]}"
                       }
                    ]
                 }
@@ -619,7 +619,7 @@
                       },
                       {
                          "type":"origins:nbt",
-                         "nbt":"{CustomModelData:387373}"
+                         "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_4\"]}"
                       }
                    ]
                 }
@@ -777,7 +777,7 @@
                       },
                       {
                          "type":"origins:nbt",
-                         "nbt":"{CustomModelData:328477}"
+                         "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_5\"]}"
                       }
                    ]
                 }

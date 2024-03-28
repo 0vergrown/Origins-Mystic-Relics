@@ -1,0 +1,34 @@
+[
+   {
+      "function":"minecraft:set_lore",
+      "entity":"this",
+      "lore":[
+         {
+            "text":"Speed Freak V",
+            "color":"gray",
+            "bold":false,
+            "italic":false,
+            "underlined":false,
+            "strikethrough":false,
+            "obfuscated":false
+         }
+      ],
+      "replace":false
+   },
+   {
+      "function":"minecraft:set_nbt",
+      "tag":"{Tags:[\"enchantment\",\"speed_freak\",\"level_5\"]}"
+   },
+   {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "Speed Increase by 25%",
+          "amount": 0.25,
+          "operation": "multiply_total",
+          "slot": "feet"
+        }
+      ]
+   }
+]

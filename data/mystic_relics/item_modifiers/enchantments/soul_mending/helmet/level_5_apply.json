@@ -1,0 +1,25 @@
+[
+   {
+      "function":"minecraft:set_lore",
+      "entity":"this",
+      "lore":[
+         {
+            "text":"Soul Mending V",
+            "color":"gray",
+            "bold":false,
+            "italic":false,
+            "underlined":false,
+            "strikethrough":false,
+            "obfuscated":false
+         }
+      ],
+      "replace":false
+   },
+   {
+       "function":"apoli:add_power",
+       "power":"mystic_relics:enchantments/soul_mending/level_5",
+       "slot":"head",
+       "hidden":true,
+       "negative":false
+   }
+]

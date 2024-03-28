@@ -34,54 +34,37 @@
          "conditions": [
              {
                "type": "origins:is_equippable",
-               "equipment_slot": "head"
+               "equipment_slot": "feet"
              },
              {      
                "type": "origins:or",
                "conditions": [
                    {
                      "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
+                     "enchantment": "minecraft:mending",
                      "use_modifications":true,
                      "comparison": ">=",
                      "compare_to": 1
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_2",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_3",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_4",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_3\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_4\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_5\"]}"
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_5",
+                     "slot": "feet"
                    }
                ],
                "inverted": true
@@ -111,7 +94,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_1_apply"
+                  "modifier":"mystic_relics:enchantments/soul_mending/boots/level_1_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -121,7 +104,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_1_apply"
+            "modifier":"mystic_relics:enchantments/soul_mending/boots/level_1_apply"
          }
       },
       "action_result":"success",
@@ -144,8 +127,8 @@
                         }
                      },
                      {
-                        "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_1\"]}"
+                        "type": "origins:nbt",
+                        "nbt": "{Tags:[\"enchantment\",\"soul_mending_book\",\"level_1\"]}"
                      }
                   ]
                }
@@ -192,54 +175,37 @@
          "conditions": [
              {
                "type": "origins:is_equippable",
-               "equipment_slot": "head"
+               "equipment_slot": "feet"
              },
              {      
                "type": "origins:or",
                "conditions": [
                    {
                      "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
+                     "enchantment": "minecraft:mending",
                      "use_modifications":true,
                      "comparison": ">=",
                      "compare_to": 1
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_1",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_3",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_4",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_1\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_3\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_4\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_5\"]}"
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_5",
+                     "slot": "feet"
                    }
                ],
                "inverted": true
@@ -269,7 +235,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_2_apply"
+                  "modifier":"mystic_relics:enchantments/soul_mending/boots/level_2_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -279,7 +245,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_2_apply"
+            "modifier":"mystic_relics:enchantments/soul_mending/boots/level_2_apply"
          }
       },
       "action_result":"success",
@@ -302,8 +268,8 @@
                         }
                      },
                      {
-                        "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_2\"]}"
+                        "type": "origins:nbt",
+                        "nbt": "{Tags:[\"enchantment\",\"soul_mending_book\",\"level_2\"]}"
                      }
                   ]
                }
@@ -350,54 +316,37 @@
          "conditions": [
              {
                "type": "origins:is_equippable",
-               "equipment_slot": "head"
+               "equipment_slot": "feet"
              },
              {      
                "type": "origins:or",
                "conditions": [
                    {
                      "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
+                     "enchantment": "minecraft:mending",
                      "use_modifications":true,
                      "comparison": ">=",
                      "compare_to": 1
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_1",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_2",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_4",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_1\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_4\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_5\"]}"
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_5",
+                     "slot": "feet"
                    }
                ],
                "inverted": true
@@ -427,7 +376,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_3_apply"
+                  "modifier":"mystic_relics:enchantments/soul_mending/boots/level_3_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -437,7 +386,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_3_apply"
+            "modifier":"mystic_relics:enchantments/soul_mending/boots/level_3_apply"
          }
       },
       "action_result":"success",
@@ -460,8 +409,8 @@
                         }
                      },
                      {
-                        "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_3\"]}"
+                        "type": "origins:nbt",
+                        "nbt": "{Tags:[\"enchantment\",\"soul_mending_book\",\"level_3\"]}"
                      }
                   ]
                }
@@ -508,54 +457,37 @@
          "conditions": [
              {
                "type": "origins:is_equippable",
-               "equipment_slot": "head"
+               "equipment_slot": "feet"
              },
              {      
                "type": "origins:or",
                "conditions": [
                    {
                      "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
+                     "enchantment": "minecraft:mending",
                      "use_modifications":true,
                      "comparison": ">=",
                      "compare_to": 1
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_1",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_2",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_3",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_1\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_3\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_5\"]}"
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_5",
+                     "slot": "feet"
                    }
                ],
                "inverted": true
@@ -585,7 +517,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_4_apply"
+                  "modifier":"mystic_relics:enchantments/soul_mending/boots/level_4_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -595,7 +527,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_4_apply"
+            "modifier":"mystic_relics:enchantments/soul_mending/boots/level_4_apply"
          }
       },
       "action_result":"success",
@@ -618,8 +550,8 @@
                         }
                      },
                      {
-                        "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_4\"]}"
+                        "type": "origins:nbt",
+                        "nbt": "{Tags:[\"enchantment\",\"soul_mending_book\",\"level_4\"]}"
                      }
                   ]
                }
@@ -666,54 +598,37 @@
          "conditions": [
              {
                "type": "origins:is_equippable",
-               "equipment_slot": "head"
+               "equipment_slot": "feet"
              },
              {      
                "type": "origins:or",
                "conditions": [
                    {
                      "type": "origins:enchantment",
-                     "enchantment": "minecraft:protection",
+                     "enchantment": "minecraft:mending",
                      "use_modifications":true,
                      "comparison": ">=",
                      "compare_to": 1
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:blast_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_1",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:fire_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_2",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:enchantment",
-                     "enchantment": "minecraft:projectile_protection",
-                     "use_modifications":true,
-                     "comparison": ">=",
-                     "compare_to": 1
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_3",
+                     "slot": "feet"
                    },
                    {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_1\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_2\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_3\"]}"
-                   },
-                   {
-                     "type": "origins:nbt",
-                     "nbt": "{Tags:[\"enchantment\",\"kinetic_protection\",\"level_4\"]}"
+                     "type": "origins:has_power",
+                     "power": "mystic_relics:enchantments/soul_mending/level_4",
+                     "slot": "feet"
                    }
                ],
                "inverted": true
@@ -743,7 +658,7 @@
             "actions": [
                 {
                   "type":"origins:modify",
-                  "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_5_apply"
+                  "modifier":"mystic_relics:enchantments/soul_mending/boots/level_5_apply"
                 },
                 {    
                   "type": "origins:merge_nbt",
@@ -753,7 +668,7 @@
          },
          "else_action": {
             "type":"origins:modify",
-            "modifier":"mystic_relics:enchantments/kinetic_protection/helmet/level_5_apply"
+            "modifier":"mystic_relics:enchantments/soul_mending/boots/level_5_apply"
          }
       },
       "action_result":"success",
@@ -776,8 +691,8 @@
                         }
                      },
                      {
-                        "type":"origins:nbt",
-                        "nbt":"{Tags:[\"enchantment\",\"kinetic_protection_book\",\"level_5\"]}"
+                        "type": "origins:nbt",
+                        "nbt": "{Tags:[\"enchantment\",\"soul_mending_book\",\"level_5\"]}"
                      }
                   ]
                }
