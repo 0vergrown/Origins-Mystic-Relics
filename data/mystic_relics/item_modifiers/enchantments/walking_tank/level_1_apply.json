@@ -21,5 +21,12 @@
         "slot":"mainhand",
         "hidden":true,
         "negative":false
-    }
+    },
+    {
+      "function":"apoli:add_power",
+      "power":"mystic_relics:enchantments/walking_tank/level_1",
+      "slot":"offhand",
+      "hidden":true,
+      "negative":false
+  }
  ]

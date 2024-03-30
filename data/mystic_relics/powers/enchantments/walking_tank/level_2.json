@@ -10,7 +10,7 @@
           "value":-0.10,
           "name":"Speed Decrease by 10%"
        },
-       "tick_rate":20,
+       "tick_rate":1,
        "update_health":false,
        "condition":{
           "type":"origins:using_item",
