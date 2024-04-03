@@ -1,4 +1,6 @@
 {
+    "name":"Temporal Stasis",
+    "description":"When in Desert biomes, freeze time at will but at the cost of a Shard",
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:and",
