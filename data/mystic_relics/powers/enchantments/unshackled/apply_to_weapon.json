@@ -38,7 +38,7 @@
          },
          {
             "type":"origins:has_power",
-            "power":"mystic_relics:enchantments/bane_of_sinners/level_1",
+            "power":"mystic_relics:enchantments/unshackled/level_1",
             "inverted": true
          }
       ]
@@ -66,7 +66,7 @@
          "actions":[
             {
                "type":"origins:modify",
-               "modifier":"mystic_relics:enchantments/bane_of_sinners/level_1_apply"
+               "modifier":"mystic_relics:enchantments/unshackled/level_1_apply"
             },
             {
                "type":"origins:merge_nbt",
@@ -76,7 +76,7 @@
       },
       "else_action":{
          "type":"origins:modify",
-         "modifier":"mystic_relics:enchantments/bane_of_sinners/level_1_apply"
+         "modifier":"mystic_relics:enchantments/unshackled/level_1_apply"
       }
    },
    "action_result":"success",
@@ -100,7 +100,7 @@
                   },
                   {
                      "type":"origins:nbt",
-                     "nbt":"{Tags:[\"enchantment\",\"bane_of_sinners_book\",\"level_1\"]}"
+                     "nbt":"{Tags:[\"enchantment\",\"unshackled_book\",\"level_1\"]}"
                   }
                ]
             }

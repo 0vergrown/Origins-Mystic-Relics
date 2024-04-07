@@ -1,0 +1,25 @@
+[
+    {
+       "function":"minecraft:set_lore",
+       "entity":"this",
+       "lore":[
+          {
+             "text":"Bane Of Sinners I",
+             "color":"gray",
+             "bold":false,
+             "italic":false,
+             "underlined":false,
+             "strikethrough":false,
+             "obfuscated":false
+          }
+       ],
+       "replace":false
+    },
+    {
+        "function":"apoli:add_power",
+        "power":"mystic_relics:enchantments/bane_of_sinners/level_1",
+        "slot":"mainhand",
+        "hidden":true,
+        "negative":false
+    }
+ ]

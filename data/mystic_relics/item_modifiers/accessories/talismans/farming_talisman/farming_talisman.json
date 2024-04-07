@@ -1,0 +1,46 @@
+[
+    {
+       "function":"minecraft:set_name",
+       "entity":"this",
+       "name":{
+          "text":"Farming Talisman",
+          "color":"white",
+          "bold":false,
+          "italic":false,
+          "underlined":false,
+          "strikethrough":false,
+          "obfuscated":false
+       }
+    },
+    {
+       "function":"minecraft:set_lore",
+       "entity":"this",
+       "lore":[
+          {
+             "text":"Increase the chance of double crops by §a10%",
+             "color":"gray",
+             "bold":false,
+             "italic":false,
+             "underlined":false,
+             "strikethrough":false,
+             "obfuscated":false
+          }
+       ],
+       "replace":true
+    },
+    {
+       "function":"minecraft:set_nbt",
+       "tag":"{SkullOwner:{Id:[I;99148268,-120500629,-1273983585,1401885143],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19\"}]}}}"
+    },
+    {
+       "function":"minecraft:limit_count",
+       "limit":1
+    },
+    {
+       "function":"apoli:add_power",
+       "power":"mystic_relics:accessories/talismans/farming_talisman/double_crops",
+       "slot":"offhand",
+       "hidden":true,
+       "negative":false
+    }
+]
