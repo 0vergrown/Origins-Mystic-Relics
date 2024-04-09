@@ -1,0 +1,21 @@
+{
+    "type": "apoli:modify_crafting",
+    "recipe": "mystic_relics:bonk_stick",
+    "item_action": {
+        "type": "apoli:modify",
+        "modifier": "mystic_relics:tools/bonk_stick"
+    },
+    "entity_action": {
+        "type": "origins:spawn_particles",
+        "particle":"minecraft:poof",
+        "count": 50,
+        "speed": 0.01,
+        "force": true,
+        "spread": {
+            "x": 0.00,
+            "y": 0.00,
+            "z": 0.00
+        },
+        "offset_y": 0.5
+    }
+}

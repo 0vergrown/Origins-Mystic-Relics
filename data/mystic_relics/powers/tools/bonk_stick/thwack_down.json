@@ -1,0 +1,97 @@
+{
+    "name":"Thwack Down",
+    "description":"Slams the hit entity into the ground. The sheer force of the impact leaves them dazed and disoriented.",
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+        },
+        "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type":"origins:execute_command",
+                    "command":"tp @s ^ ^-1 ^"
+                },
+                {    
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:nausea",
+                            "duration": 60,
+                            "amplifier": 0,
+                            "is_ambient": false,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:slowness",
+                            "duration": 60,
+                            "amplifier": 225,
+                            "is_ambient": false,
+                            "show_particles": false,
+                            "show_icon": true
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.small_fall",
+                    "volume": 1.00,
+                    "pitch": 1.00
+                }
+            ]
+        },
+        "else_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type":"origins:execute_command",
+                    "command":"data merge entity @s {NoAI:1}"
+                },
+                {
+                    "type":"origins:execute_command",
+                    "command":"tp @s ^ ^-1 ^"
+                },
+                {    
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:nausea",
+                            "duration": 60,
+                            "amplifier": 0,
+                            "is_ambient": false,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:slowness",
+                            "duration": 60,
+                            "amplifier": 225,
+                            "is_ambient": false,
+                            "show_particles": false,
+                            "show_icon": true
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.player.small_fall",
+                    "volume": 1.00,
+                    "pitch": 1.00
+                },
+                {
+                    "type": "origins:delay",
+                    "action": {
+                        "type":"origins:execute_command",
+                        "command":"data merge entity @s {NoAI:0}"
+                    },
+                    
+                    "ticks": 60
+                }
+            ]
+        }
+    }
+}

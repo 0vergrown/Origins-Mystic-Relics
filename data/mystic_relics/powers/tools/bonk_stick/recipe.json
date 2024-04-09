@@ -1,0 +1,27 @@
+{
+    "type": "apoli:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "id": "mystic_relics:bonk_stick",
+        "pattern": [
+            "#",
+            "i",
+            "/"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:netherite_block"
+            },
+            "i": {
+                "item": "minecraft:iron_ingot"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "minecraft:stick",
+            "count": 1
+        }
+    }
+}
