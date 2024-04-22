@@ -1,0 +1,29 @@
+{
+    "type": "origins:modify_crafting",
+    "recipe": "mystic_relics:ring_of_tora",
+    "item_action": {
+        "type": "origins:modify",
+        "modifier": "mystic_relics:accessories/rings/ring_of_tora/abilities_apply"
+    },
+    "entity_action":{
+        "type":"origins:and",
+        "actions":[
+           {
+              "type":"origins:play_sound",
+              "sound":"minecraft:entity.wither.shoot",
+              "volume":0.50,
+              "pitch":0.50
+           },
+           {
+              "type":"origins:delay",
+              "action":{
+                 "type":"origins:play_sound",
+                 "sound":"minecraft:entity.wither.death",
+                 "volume":0.50,
+                 "pitch":0.50
+              },
+              "ticks":10
+           }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "item_modifier.mystic_relics.shard_of_frozen_time.name": "Shard Of Frozen Time",
+  "item_modifier.mystic_relics.shard_of_frozen_time.lore": "A small crystal shard containing sands frozen in a graceful, Mobius-like shape.",
+  "power.mystic_relics.relics/shard_of_frozen_time/temporal_stasis.name":"Temporal Stasis",
+  "power.mystic_relics.relics/shard_of_frozen_time/temporal_stasis.description":"Placeholder",
+
+  "item_modifier.mystic_relics.crowbar.name":"Crowbar",
+  "item_modifier.mystic_relics.crowbar.lore":"A sturdy metal tool with a curved end, commonly used for prying objects apart.",
+  "power.mystic_relics.tools/crowbar/ironbreaker_pry.name":"Ironbreaker Pry",
+  "power.mystic_relics.tools/crowbar/ironbreaker_pry.description":"Allows its wielder to exert immense leverage, forcing open iron doors and trapdoors.",
+
+  "item_modifier.mystic_relics.ring_of_tora.name":"Ring of Tora",
+  "item_modifier.mystic_relics.ring_of_tora.lore":"A carved dark metal band. When an entity dies near the wielder, they can absorb the deceased's soul. The soul will be trapped in the band and a pale fire will glow in it.",
+  "power.mystic_relics.mend_wounds.name":"Mend Wounds",
+  "power.mystic_relics.mend_wounds.description":"Summon a healing cloud that heals anyone in a 5-block radius."
+}

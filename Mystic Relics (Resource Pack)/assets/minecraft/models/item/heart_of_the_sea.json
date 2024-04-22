@@ -1,0 +1,16 @@
+{
+	"parent": "minecraft:item/generated",
+	"ambientocclusion": true,
+	"textures": {
+	  "layer0": "minecraft:item/heart_of_the_sea"
+	},
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 719847
+		},
+		"model": "minecraft:item/rings/ring_of_tora"
+	  }
+	]
+}
+  

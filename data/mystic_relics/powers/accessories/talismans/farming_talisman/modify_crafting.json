@@ -3,6 +3,6 @@
     "recipe": "mystic_relics:farming_talisman",
     "item_action": {
         "type": "origins:modify",
-        "modifier": "mystic_relics:accessories/talismans/farming_talisman/farming_talisman"
+        "modifier": "mystic_relics:accessories/talismans/farming_talisman/abilities_apply"
     }
 }

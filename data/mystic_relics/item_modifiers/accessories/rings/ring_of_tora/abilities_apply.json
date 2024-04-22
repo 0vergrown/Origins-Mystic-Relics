@@ -1,0 +1,46 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "translate": "item_modifier.mystic_relics.ring_of_tora.name",
+        "color": "gold",
+        "bold": false,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item_modifier.mystic_relics.ring_of_tora.lore",
+          "color":"gray",
+          "bold":false,
+          "italic":false,
+          "underlined":false,
+          "strikethrough":false,
+          "obfuscated":false
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:719847}"
+    },
+    {
+      "function": "minecraft:limit_count",
+      "limit": 1
+    },
+    {
+      "function": "apoli:add_power",
+      "power": "mystic_relics:accessories/rings/ring_of_tora/mend_wounds",
+      "slot": "mainhand",
+      "hidden":true,
+      "negative": false
+    }
+]

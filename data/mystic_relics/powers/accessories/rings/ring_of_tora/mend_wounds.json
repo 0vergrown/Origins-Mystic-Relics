@@ -1,0 +1,42 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:spawn_effect_cloud",
+                "radius": 5.0,
+                "radius_on_use": -0.5,
+                "wait_time": 10,
+                "effect": {
+                    "effect": "minecraft:regeneration",
+                    "duration": 60,
+                    "amplifier": 0,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            },
+            {
+                "type":"origins:play_sound",
+                "sound":"minecraft:block.respawn_anchor.charge",
+                "volume":1.00,
+                "pitch":0.30
+            },
+            {
+                "type":"origins:play_sound",
+                "sound":"minecraft:ambient.crimson_forest.mood",
+                "volume":1.00,
+                "pitch":0.60
+            }
+        ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    }
+}

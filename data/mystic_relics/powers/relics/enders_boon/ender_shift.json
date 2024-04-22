@@ -1,4 +1,6 @@
 {
+   "name":"Ender Shift",
+   "description":"Exchange your position with that of another entity. You can find yourself standing in the shoes (or paws, or claws) of another creature, while they take your place. §e[Right Click]§r",
     "type":"origins:active_self",
     "entity_action":{
        "type":"origins:and",

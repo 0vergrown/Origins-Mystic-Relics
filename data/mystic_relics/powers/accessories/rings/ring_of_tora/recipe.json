@@ -1,0 +1,24 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "id": "mystic_relics:ring_of_tora",
+        "pattern": [
+            " # ",
+            "n n",
+            " n "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:lapis_lazuli"
+            },
+            "n": {
+                "item": "minecraft:netherite_ingot"
+            }
+        },
+        "result": {
+            "item": "minecraft:heart_of_the_sea",
+            "count": 1
+        }
+    }
+}

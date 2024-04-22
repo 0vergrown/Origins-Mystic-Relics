@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:item/handheld_rod",
+	"ambientocclusion": true,
+	"textures": {
+	  "layer0": "minecraft:item/iron_sword"
+	},
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 128984
+		},
+		"model": "minecraft:item/tools/crowbar/crowbar"
+	  }
+	]
+  }  
