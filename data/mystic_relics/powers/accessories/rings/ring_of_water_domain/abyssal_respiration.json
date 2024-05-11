@@ -1,0 +1,41 @@
+{
+    "name":"Abyssal Respiration",
+    "description":"Grants the wearer the ability to breathe underwater indefinitely. [Shift + Right-Click]",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:ambient.underwater.enter",
+                "volume": 1.00,
+                "pitch": 1.00
+            },
+            {
+                "type": "origins:gain_air",
+                "value": 20
+            }
+        ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:sneaking",
+                "inverted": false
+            },
+            {      
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            }
+        ]
+    }
+}

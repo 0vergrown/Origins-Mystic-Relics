@@ -1,0 +1,81 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "translate": "item_modifier.mystic_relics.ring_of_water_domain.name",
+        "color": "aqua",
+        "bold": false,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item_modifier.mystic_relics.ring_of_water_domain.lore",
+          "color":"gray",
+          "bold":false,
+          "italic":false,
+          "underlined":false,
+          "strikethrough":false,
+          "obfuscated":false
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:244827}"
+    },
+    {
+      "function": "minecraft:limit_count",
+      "limit": 1
+    },
+    {
+      "function": "apoli:add_power",
+      "power": "mystic_relics:accessories/rings/ring_of_water_domain/tidal_blast",
+      "slot": "mainhand",
+      "hidden":false,
+      "negative": false
+    },
+    {
+      "function": "apoli:add_power",
+      "power": "mystic_relics:accessories/rings/ring_of_water_domain/abyssal_respiration",
+      "slot": "mainhand",
+      "hidden":false,
+      "negative": false
+    },
+    {
+      "function": "apoli:add_power",
+      "power": "mystic_relics:accessories/rings/ring_of_water_domain/currents_swiftness",
+      "slot": "mainhand",
+      "hidden":false,
+      "negative": false
+    },
+    {
+      "function": "apoli:add_power",
+      "power": "mystic_relics:accessories/rings/ring_of_water_domain/tidal_blast",
+      "slot": "offhand",
+      "hidden":true,
+      "negative": false
+    },
+    {
+      "function": "apoli:add_power",
+      "power": "mystic_relics:accessories/rings/ring_of_water_domain/abyssal_respiration",
+      "slot": "offhand",
+      "hidden":true,
+      "negative": false
+    },
+    {
+      "function": "apoli:add_power",
+      "power": "mystic_relics:accessories/rings/ring_of_water_domain/currents_swiftness",
+      "slot": "offhand",
+      "hidden":true,
+      "negative": false
+    }
+]

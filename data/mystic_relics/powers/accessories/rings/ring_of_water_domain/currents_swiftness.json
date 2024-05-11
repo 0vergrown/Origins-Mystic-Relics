@@ -1,0 +1,9 @@
+{
+    "name":"Current's Swiftness",
+    "description":"Enhances the wearer's swimming speed significantly.",
+    "type": "origins:modify_swim_speed",
+	"modifier": {
+		"operation": "multiply_total",
+		"value": 1.0
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "id": "mystic_relics:ring_of_water_domain",
+        "pattern": [
+            " # ",
+            "PHP",
+            " P "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:prismarine_crystals"
+            },
+            "P": {
+                "item": "minecraft:prismarine_shard"
+            },
+            "H": {
+                "item": "minecraft:heart_of_the_sea"
+            }
+        },
+        "result": {
+            "item": "minecraft:heart_of_the_sea",
+            "count": 1
+        }
+    }
+}

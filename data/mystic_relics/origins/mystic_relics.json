@@ -39,7 +39,9 @@
 		"mystic_relics:accessories/talismans/farming_talisman/modify_crafting",
 		
 		"mystic_relics:accessories/rings/ring_of_tora/recipe",
-		"mystic_relics:accessories/rings/ring_of_tora/modify_crafting"
+		"mystic_relics:accessories/rings/ring_of_tora/modify_crafting",
+		"mystic_relics:accessories/rings/ring_of_water_domain/recipe",
+		"mystic_relics:accessories/rings/ring_of_water_domain/modify_crafting"
 	],
 	"icon": "minecraft:soul_torch",
 	"unchoosable": false,

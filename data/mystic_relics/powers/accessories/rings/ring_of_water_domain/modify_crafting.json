@@ -1,0 +1,14 @@
+{
+   "type":"origins:modify_crafting",
+   "recipe":"mystic_relics:ring_of_water_domain",
+   "item_action":{
+      "type":"origins:modify",
+      "modifier":"mystic_relics:accessories/rings/ring_of_water_domain/abilities_apply"
+   },
+   "entity_action":{
+      "type":"origins:play_sound",
+      "sound":"minecraft:ambient.underwater.enter",
+      "volume":0.50,
+      "pitch":0.50
+   }
+}
